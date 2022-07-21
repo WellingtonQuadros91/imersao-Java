@@ -1,0 +1,22 @@
+package Aula01;
+
+import java.io.File;
+import javax.imageio.ImageIO;
+
+public class GeradorDeFigurinhas {
+
+	public void cria() throws Exception {
+		
+		// leitura da imagem
+		
+		ImageIO.read(new File ("filme1.jpg"));
+		
+		// cria nova imagem em memória com transperência e com tamanho novo
+		
+		// copiar a imagem original pra nova imagem (em memória)
+		
+		// escrever uma frase na nova imagem 
+		
+		// escrever a nova imagem em um arquivo
+	}
+}
